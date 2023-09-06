@@ -77,7 +77,23 @@ flex-grow flex-shrink flex-basis 的简写
 不缩小的元素设置 `width:0` 即可
 
 ```css
-.child-left {
-  width: 0;
+.content {
+  display: flex;
+  flex: 1;
+}
+
+/* 
+这是不缩小的元素
+目前设置为380，表示到达380才不缩小
+ */
+.main {
+  flex: 1;
+  width: 380px;
+}
+
+.right {
+  border-left: 1px solid var(--el-border-color);
+  width: 420px;
+  flex-shrink: 0;
 }
 ```
