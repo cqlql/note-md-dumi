@@ -1,5 +1,5 @@
 ---
-title: Array
+title: Array 数组
 ---
 
 ## 创建

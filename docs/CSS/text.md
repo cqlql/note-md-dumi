@@ -1,16 +1,8 @@
 ---
 title: 文本
-nav: css
 ---
 
-- [word-spacing：html 空格宽度控制](#word-spacinghtml-空格宽度控制)
-- [换行](#换行)
-- [不换行](#不换行)
-- [裁剪](#裁剪)
-- [垂直居中](#垂直居中)
-- [文字描边](#文字描边)
-
-## word-spacing：html 空格宽度控制
+## 空格宽度 word-spacing
 
 控制文本中的空格宽度
 

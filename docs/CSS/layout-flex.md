@@ -1,6 +1,6 @@
 ---
-nav:
-  second: 布局
+group: 布局
+title: flex
 ---
 
 ## 容器属性
