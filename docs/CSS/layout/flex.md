@@ -69,3 +69,15 @@ flex-grow flex-shrink flex-basis 的简写
 设置不一样的对其方式。可覆盖 align-items 属性。
 
 默认值 auto，表示继承父容器的 align-items。
+
+## 问题解决
+
+### 子元素超出容器不缩小
+
+不缩小的元素设置 `width:0` 即可
+
+```css
+.child-left {
+  width: 0;
+}
+```
